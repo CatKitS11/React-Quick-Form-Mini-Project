@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { movies } from "../constants/movies.js";
 
-export default function RadioButtonExample() {
+const RadioButton = () => {
   const [selectedOption, setSelectedOption] = useState("");
   const [comment, setComment] = useState("");
   console.log(selectedOption);
@@ -42,3 +42,5 @@ export default function RadioButtonExample() {
     </div>
   );
 }
+
+export default RadioButton;
