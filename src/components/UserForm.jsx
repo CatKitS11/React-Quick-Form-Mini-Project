@@ -12,11 +12,9 @@ const UserForm = () => {
     }
 
     return (
-        <div>
-            <h1>User Form</h1>
-            <input type="text" name="name" placeholder="Name" value={user.name} onChange={handleChange} />
-            <input type="email" name="email" placeholder="Email" value={user.email} onChange={handleChange} />
-            <button type="submit">Submit</button>
+        <div className="flex flex-col items-start">
+            <input className="mr-1" type="text" name="name" placeholder="ชื่อ" value={user.name} onChange={handleChange} />
+            <input className="mr-1" type="email" name="email" placeholder="Email" value={user.email} onChange={handleChange} />
         </div>
     )
 }
