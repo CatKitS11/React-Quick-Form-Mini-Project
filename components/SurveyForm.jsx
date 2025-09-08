@@ -73,7 +73,7 @@ function SurveyForm() {
             <label className="block text-white font-medium mb-3">
               หนังที่ชอบ <span className="text-red-400">*</span>
             </label>
-            <div className="bg-gray-200 p-4 rounded-lg">
+            <div className="bg-gray-900 p-4 rounded-lg">
               <RadioButton 
                 selectedOption={favoriteMovie}
                 setSelectedOption={setFavoriteMovie}
@@ -100,7 +100,7 @@ function SurveyForm() {
             type="submit"
             className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 rounded-lg transition-colors"
           >
-            ส่งข้อมูล
+            Submit
           </button>
         </form>
       </div>

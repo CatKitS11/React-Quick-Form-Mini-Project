@@ -44,7 +44,7 @@ function SurveySummary({ name, email, favoriteMovie, comments, onReset }) {
               }}
               className="w-full bg-red-600 hover:bg-red-700 text-white font-bold py-3 rounded-lg transition-colors"
             >
-              ล้างข้อมูล
+              Reset
             </button>
           </div>
         </div>

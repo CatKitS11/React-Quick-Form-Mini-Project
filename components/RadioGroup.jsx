@@ -4,7 +4,7 @@ function RadioButton({ selectedOption, setSelectedOption }) {
   return (
     <div className="space-y-2">
       {movies.map((movie, i) => (
-        <label key={i} className="flex items-center text-gray-800 cursor-pointer">
+        <label key={i} className="flex items-center text-white cursor-pointer">
           <input
             type="radio"
             name="movie"
