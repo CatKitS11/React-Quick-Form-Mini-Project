@@ -2,7 +2,7 @@
 function SurveyForm() {
   return (
     <div>
-      <h1>Survey Form</h1>
+      <h1 className="bg-blue-500 text-2xl font-bold">Survey Form</h1>
     </div>
   );
 }
