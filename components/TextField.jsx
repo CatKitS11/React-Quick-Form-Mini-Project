@@ -1,7 +1,7 @@
 function TextField({ label, value, onChange, error, type = "text", placeholder }) {
     return (
       <div>
-        <label className="block text-white font-medium mb-2">{label}</label>
+        <label className="block text-white font-medium mb-2">{label} <span className="text-red-400">*</span></label>
         <input
           type={type}
           value={value}
